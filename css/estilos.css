@@ -1,0 +1,38 @@
+p {
+    text-align: justify;
+    text-decoration: underline;
+    line-height: 3x;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    text-indent: 30px;
+}
+
+p,
+figure {
+    border: 2px solid coral;
+    text-align: center;
+    text-decoration: solid;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: serif;
+    border-top: 4px solid gold;
+    border-bottom: 4px solid purple;
+    border-left: 4px solid gray;
+    border-right: 4px solid black;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: sans-serif;
+
+}
+
+body {
+    font-family: "Helvetica", "Lucida Grande", sans-serif;
+    background-image: url(https://i.imgur.com/uAhjMNd.jpg);
+
+}
