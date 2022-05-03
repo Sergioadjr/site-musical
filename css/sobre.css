@@ -16,15 +16,17 @@ figure {
 }
 
 
-h1 {
+.titulo {
+    padding: 10px;
+    font-size: 32px;
     color: #3d3d3d;
     background-color: #E1EDF2;
-    padding: 10px;
 }
 
-h2 {
-    border-bottom: 4px solid #926060;
+.subtitulo {
+    border-bottom: 2px solid black;
 }
+
 h3 {
     border-bottom: 4px solid #926060;
 }
@@ -56,4 +58,21 @@ a {
 
 figure img {
     width: 100%;
+}
+
+.contatosecao {}
+
+.contatosecao--telefone {}
+
+.contatoinfo {
+    margin: 16px 0 24px;
+    padding-left: 32px;
+}
+
+.contatoinfo--titulo {}
+
+.contatoinfo--descricao {}
+
+.contatosubtitulo {
+    display: inline;
 }
