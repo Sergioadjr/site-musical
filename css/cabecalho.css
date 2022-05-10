@@ -1,0 +1,48 @@
+.cabecalho {
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: bold;
+    background-color: #2d5377;
+    letter-spacing: 0.23em;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.cabecalho__logo {
+    padding: 1.5em 0;
+    width: 14.5em;
+}
+
+.cabecalho__menu {
+    background-color: #27283a87;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cabecalho__item__menu {
+    padding: 1.86em 1.42em;
+    display: inline-block;
+}
+
+@media (min-width: 640px) {
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cabecalho__logo {
+        margin: 0 1.5%;
+    }
+
+    .cabecalho__menu {
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+
+    }
+}
+
+@import url(https://fonts.google.com/specimen/Montserrat?query=montserfamily=Montserrat:300,400,500,600,700,&display=block);
