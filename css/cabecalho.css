@@ -34,7 +34,7 @@
     }
 
     .cabecalho__logo {
-        margin: 0 1.5%;
+        margin: 2em 2%;
     }
 
     .cabecalho__menu {
@@ -42,6 +42,23 @@
         display: flex;
         justify-content: space-between;
 
+    }
+
+}
+
+@media (min-width: 770px) {
+    .cabecalho__item-menu--matricular {
+        margin-left: 1.42em;
+        border-radius: 6px;
+        background-color: #e93d50;
+    }
+
+}
+
+@media (min-width: 1066px) {
+    .cabecalho {
+        padding-left: calc((100% - 960px)/2);
+        padding-right: calc((100% - 960px)/2);
     }
 }
 

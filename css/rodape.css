@@ -1,0 +1,85 @@
+.rodape {
+    text-align: center;
+    font-size: 0.7rem;
+    padding: 2em 5%;
+}
+
+.rodape__logo {
+    width: 11.25em;
+    margin-bottom: 1em;
+}
+
+.rodape__midia-social {
+    display: flex;
+    justify-content: center;
+
+}
+
+.rodape__midia-social img {
+    width: 100%;
+
+}
+
+.rodape__midia-social--item {
+    width: 2.62em;
+    margin-top: 1em;
+}
+
+.rodape__subtitulo {
+    font-size: 1.45em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 1em;
+}
+
+.rodape__item-lista {
+    font-weight: 500;
+    margin: 0.625em 0;
+
+}
+
+.rodape__contato__info {
+    line-height: 1.5;
+}
+
+/* .rodape__secao {
+    margin-top: 2em;
+} */
+
+@media (max-width: 640px) {
+    .rodape__secao {
+        margin-top: 2em;
+    }
+}
+
+@media (min-width: 640px) {
+    .rodape {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        font-size: 1rem;
+    }
+
+    .rodape__secao--sobre,
+    .rodape__secao--cursos,
+    .rodape__secao--links {
+        width: 32%;
+        
+    }
+
+    .rodape__secao--sobre {
+        order: 1;
+        margin-top: 0;
+    }
+
+    .rodape__secao--cursos {
+        order: 2;
+        margin: 0;
+    }
+
+    .rodape__secao-links {
+        order: 3;
+        margin: 0;
+    }
+}
