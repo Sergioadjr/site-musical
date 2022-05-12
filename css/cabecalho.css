@@ -52,6 +52,10 @@
         border-radius: 6px;
         background-color: #e93d50;
     }
+    .cabecalho__item-menu--matricular:hover{
+        background-color: #b11325;
+        
+    }
 
 }
 

@@ -1,0 +1,41 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "verde verde verde" 
+    ". . ."
+    "verde1 verde1 verde1";
+  
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #000;
+    background-color: #ff002b;
+    margin-bottom: 1rem;
+}
+.foto-destaque-verde{
+    background-color: #24cc2d;
+    height: 100%;
+    width: 100%;
+    grid-area: verde;}
+   
+.foto-destaque-verde1{
+    background-color: #24cc2d;
+    height: 100%;
+    width: 100%;
+    border-radius: 11%;    
+    grid-area: verde1;
+   
+}
+.foto-destaque-verde1:hover{
+    background-color: #3c9441;
+
+}
+a{
+font-size: 70px;
+color: black;
+}

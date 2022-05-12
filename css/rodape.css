@@ -42,9 +42,11 @@
     line-height: 1.5;
 }
 
-/* .rodape__secao {
+.rodape__secao {
     margin-top: 2em;
-} */
+}
+
+
 
 @media (max-width: 640px) {
     .rodape__secao {
@@ -52,7 +54,7 @@
     }
 }
 
-@media (min-width: 640px) {
+@media (min-width: 640px) and (max-width:1200px) {
     .rodape {
         display: flex;
         flex-wrap: wrap;
@@ -63,8 +65,9 @@
 
     .rodape__secao--sobre,
     .rodape__secao--cursos,
-    .rodape__secao--links {
-        width: 32%;
+    .rodape__secao--links,
+    .rodape__secao--newsletter {
+        width: 45%;
         
     }
 
@@ -82,4 +85,57 @@
         order: 3;
         margin: 0;
     }
+    .rodape__secao--newsletter {
+        order:4;
+        margin: 0;
+    }
 }
+@media (min-width:1200px) {
+    .rodape {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.85rem;
+
+        text-align: left;
+    }
+    .rodape__subtitulo{
+        font-size: 1rem;
+    }
+
+    .rodape__lista-midias-sociais{
+        justify-content: left;
+    }
+
+    .rodape__secao{
+        margin-top: 0;
+        margin-left: 2em;
+    }
+
+    .rodape__secao--sobre,
+    .rodape__secao--cursos,
+    .rodape__secao--links,
+    .rodape__secao--newsletter {
+        width: 45%;
+        
+    }
+
+    .rodape__secao--sobre {
+        order: 1;
+        margin-top: 0;
+    }
+
+    .rodape__secao--cursos {
+        order: 2;
+        margin: 0;
+    }
+
+    .rodape__secao-links {
+        order: 3;
+        margin: 0;
+    }
+    .rodape__secao--newsletter {
+        order:4;
+        margin: 0;
+    }
+}
+
