@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="bootstrap" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <h1 class="titulo">CADASTRO</h1>
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+            <label for="validationCustom01" class="form-label">Primeiro nome</label>
+            <input type="text" class="form-control" id="validationCustom01" placeholder="Sérgio" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="col-md-4">
+            <label for="validationCustom02" class="form-label">Sobrenome</label>
+            <input type="text" class="form-control" id="validationCustom02" placeholder="David" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="col-md-4">
+            <label for="validationCustomUsername" class="form-label">Nome de usuário</label>
+            <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <input type="text" class="form-control" id="validationCustomUsername"
+                    aria-describedby="inputGroupPrepend" placeholder="Serjao" required>
+                <div class="invalid-feedback">
+                    Please choose a username.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">Cidade</label>
+            <input type="text" class="form-control" id="validationCustom03" placeholder="Campo Grande" required>
+            <div class="invalid-feedback">
+                Please provide a valid city.
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">Estado</label>
+            <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Selecione</option>
+                <ul>
+                    <li>
+                        Acre (AC)
+                    </li>
+                    </option>
+                    <option>
+                        <li>
+                            Alagoas (AL)
+                        </li>
+                    </option>
+                    <option>
+                        <li>
+                            Amapá (AP)
+                        </li>
+                    </option>
+                    <option>
+                        <li>
+                            Amazonas (AM)
+                        </li>
+                    </option>
+                    <option>
+                        <li>
+                            Bahia (BA)
+                        </li>
+                    </option>
+                    <option>
+                        <li>
+                            Ceará (CE)
+                        </li>
+                    </option>
+                    <option>
+                        <li>
+                            Distrito Federal (DF)
+                        </li>
+                    </option>
+                    <option>
+                        <li>
+                            Espírito Santo (ES)
+                        </li>
+                    </option>
+                    <option>
+                        <li>
+                            Goiás (GO)
+                        </li>
+                    </option>
+                    <option>
+                        <li>
+                            Maranhão (MA)
+                        </li>
+                    </option>
+                    <option>
+                        <li>
+                            Mato Grosso (MT)
+                        </li>
+                    </option>
+                    <option>
+                        <li>
+                            Mato Grosso do Sul (MS)
+                        </li>
+                    </option>
+                    <option>
+                        <li>
+                            Minas Gerais (MG)
+                        </li>
+                    </option>
+                    <option>
+                        <li>
+                            Pará (PA)
+                        </li>
+                    <option>
+                        <li>
+                            Paraíba (PB)
+                        </li>
+                    </option>
+                    <option>
+                        <li>
+                            Paraná (PR)
+                        </li>
+                    </option>
+                    <option>
+                        <li>
+                            Pernambuco (PE)
+                        </li>
+                    </option>
+                    <option>
+                        <li>
+                            Piauí (PI)
+                        </li>
+                    </option>
+                    <option>
+                        <li>
+                            Rio de Janeiro (RJ)
+                        </li>
+                    </option>
+                    <option>
+                        <li>
+                            Rio Grande do Norte (RN)
+                        </li>
+                    </option>
+                    <option>
+                        <li>
+                            Rio Grande do Sul (RS)
+                        </li>
+                    </option>
+                    <option>
+                        <li>
+                            Rondônia (RO)
+                        </li>
+                    </option>
+                    <option>
+                        <li>
+                            Roraima (RR)
+                        </li>
+                    </option>
+                    <option>
+                        <li>
+                            Santa Catarina (SC)
+                        </li>/option>
+                    <option>
+                        <li>
+                            São Paulo (SP)
+                        </li>
+                    </option>
+                    <option>
+                        <li>
+                            Sergipe (SE)
+                        </li>
+                    </option>
+                    <li>
+                        Tocantins (TO)
+                    </li>
+                    </option>
+                </ul>
+            </select>
+            <div class="invalid-feedback">
+                Please select a valid state.
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Código Postal</label>
+            <input type="text" class="form-control" id="validationCustom05" placeholder="79001-123" required>
+            <div class="invalid-feedback">
+                Please provide a valid zip.
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                    Eu Aceito os termos de uso e condições do site
+                </label>
+                <div class="invalid-feedback">
+                    You must agree before submitting.
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <button type="button" class="btn btn-success">Aceitar</button>
+            <button type="button" class="btn btn-danger">Cancelar</button>
+        </div>
+    </form>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
