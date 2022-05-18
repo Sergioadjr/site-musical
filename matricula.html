@@ -69,32 +69,38 @@
         <table class="table table-striped table-hover mt-3">
             <thead class="table-ligth">
                 <tr>
-                    <th scope="col"></th>
+                    <th scope="col"><input onclick="selecionarTodos(this)" type="checkbox" id="js-cursos"></th>
                     <th scope="col">Curso</th>
                     <th scope="col">Tempo</th>
+                    <th scope="col">Valor</th>
+
                 </tr>
             </thead>
             <tbody class="table-group-divider">
                 <tr>
-                    <td><input onclick="adicionarCurso(this)" type="checkbox" name="curso" value="20"></td>
+                    <td><input onclick="adicionarCurso(this)" type="checkbox" name="curso" value="20" custo="200,00"></td>
                     <td>Curso de Violão</td>
                     <td>20h</td>
+                    <td>R$ 200,00</td>
                 </tr>
                 <tr>
-                    <td><input onclick="adicionarCurso(this)" type="checkbox" name="curso" value="30"></td>
+                    <td><input onclick="adicionarCurso(this)" type="checkbox" name="curso" value="30" custo="20,00"></td>
                     <td>Curso de Bambolê</td>
                     <td>30h</td>
+                    <td>R$ 20,00</td>
                 </tr>
                 <tr>
-                    <td><input onclick="adicionarCurso(this)" type="checkbox" name="curso" value="20"></td>
+                    <td><input onclick="adicionarCurso(this)" type="checkbox" name="curso" value="12" custo="1500.99"></td>
                     <td>Curso de Java</td>
                     <td>12h</td>
+                    <td>R$ 1.500,99</td>
                 </tr>
             <tfoot class="table-group-divider">
                 <tr class="table-ligth">
                     <td>Total</td>
                     <td class="js-total-de-cursos">0 Curso(s)</td>
                     <td class="js-total-de-horas">0h</td>
+                    <td class="js-total-valores">R$ 0,00</td>
                 </tr>
             </tfoot>
             </tbody>
